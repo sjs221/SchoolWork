@@ -1,0 +1,8 @@
+a=(CHEM).*(Open)
+line_count=357
+b=(Open.*9:00\sAM,\d.*)
+line_count=583
+c=(-2\d\d).*(F)
+line_count=501
+d=(MATH-(424|442),Closed)
+line_count=2
